@@ -17,5 +17,30 @@
 ujjawal thakure
 
     new line second
+
+
+    <!-- clone one repo branches to other repo using these steps  -->
+
+    <!-- 1 geenrate ssh-->
+    ssh-keygen -t ed25519 -C "thakurujjawal2003@gmail.com"
+    <!-- 2 view ssh key -->
+    cat ~/.ssh/id_ed25519.pub
+    <!-- 3 set ssh key -->
+     manually/code
+    <!-- 4 set remote -->
+    git remote set-url upstream git@github.com:ujjawal200/cloneTest.git
+    <!-- 4 use keyword upstream/origin to push or pull from specific repos -->
+    git push upstream ujjawal
+    git pull upstream ujjawal
+
+    git push origin ujjawal
+    git pull origin ujjawal
+
+<!-- to get all branch directory from upstream / origin  -->
+    git remote -a
+
+
+
+
   </body>
 </html>
